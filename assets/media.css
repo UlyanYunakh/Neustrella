@@ -1,0 +1,120 @@
+@media (max-width: 1250px){
+    .theme-button{
+        width: 70px;
+    }
+
+    .wheel__ring{
+        width: 450px;
+    }
+
+    .wheel__sign{
+        top: 130px;
+        width: 170px;
+    }
+
+    .wheel__title{
+        top: 283px;
+    }
+    
+    .arrow{
+        width: 50px;
+    }
+
+    .column__title{
+        width: 500px;
+    }
+}
+
+@media (max-width: 981px){
+    .container__column{
+        width: 360px;
+    }
+
+    .wheel__ring{
+        width: 400px;
+    }
+
+    .wheel__sign{
+        top: 120px;
+        width: 150px;
+    }
+
+    .wheel__title{
+        top: 253px;
+    }
+    
+    .arrow{
+        width: 40px;
+    }
+
+    .column__title{
+        width: 400px;
+    }
+
+    .column__text{
+        padding-top: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 910px){
+    .container-box{
+        position: relative;
+    }
+
+    .container-box__container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hidden-items{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .theme-button, .column__title{
+        display: none;
+    }
+
+    .column__text{
+        padding: 0;
+    }
+}
+
+@media (max-width: 552px){
+    .container__column{
+        width: 100%;
+    }
+
+    .item__title{
+        width: 255px;
+    }
+    
+    .item__theme-button{
+        width: 60px;
+    }
+
+    .wheel__ring{
+        width: 288px;
+    }
+    
+    .wheel__sign{
+        top: 74px;
+        width: 115px;
+    }
+
+    .wheel__title{
+        top: 176px;
+        font-size: 17px;
+    }
+    
+    .wheel__arrows{
+        top: -5px;
+    }
+
+    .arrow{
+        width: 50px;
+    }
+}
