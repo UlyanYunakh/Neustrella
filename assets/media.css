@@ -1,3 +1,43 @@
+@media (min-width: 1400px){
+    .container-box__container{
+        max-width: 1400px;
+    }
+
+    .container__column{
+        width: 600px;
+    }
+
+    .theme-button{
+        width: 100px;
+    }
+
+    .wheel__ring{
+        width: 600px;
+    }
+
+    .wheel__sign{
+        top: 160px;
+        width: 250px;
+    }
+
+    .wheel__title{
+        top: 384px;
+        font-size: 30px;
+    }
+    
+    .arrow{
+        width: 70px;
+    }
+
+    .column__title{
+        width: 700px;
+    }
+
+    .column__text{
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 1250px){
     .theme-button{
         width: 70px;
@@ -58,6 +98,10 @@
 }
 
 @media (max-width: 910px){
+    .container__column{
+        width: 100%;
+    }
+
     .container-box{
         position: relative;
     }
