@@ -4,7 +4,7 @@ var rotation = 0
 var currSign = 0
 var themeStr = 'blue.svg'
 var date = new Date()
-var dateStr = date.toLocaleString('en-us', { month: 'long' }) + ' ' + date.getDay() +'. '
+var dateStr = date.toLocaleString('en-us', { month: 'long' }) + ' ' + date.getDate() +'. '
 var signArray = [
 	["aries_","Aries", "Aries. At but the more you start a good time to be so long and everything you do not allow them out. the only danger is that you have been trying to yourself to yourself. you will be expected to be and stick to it and get to your reputation. the planets warn if you feel wish they may not be at the first worry you can have to be good behind when you make but it will be a bit a bit any good ideas of a work of the situation and see your situation it will be what you get to yourself. a sensitive area of your chart this weekend you are not being too much about a big."],
 	["taurus_","Taurus", "Taurus. At but the more you start a good time to be so long and everything you do not allow them out. the only danger is that you have been trying to yourself to yourself. you will be expected to be and stick to it and get to your reputation. the planets warn if you feel wish they may not be at the first worry you can have to be good behind when you make but it will be a bit a bit any good ideas of a work of the situation and see your situation it will be what you get to yourself. a sensitive area of your chart this weekend you are not being too much about a big."],
