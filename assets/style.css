@@ -110,6 +110,7 @@ body{
 }
 
 .column__text{
+    display: none;
     padding-top: 40px;
     text-align: center;
     font-size: 23px;
